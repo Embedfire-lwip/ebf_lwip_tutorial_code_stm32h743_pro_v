@@ -42,14 +42,14 @@
 
 
 #ifdef    LWIP_DNS
-#define   HOST_NAME       "www.firebbs.cn"     //www.lighttpd.net"
+#define   HOST_NAME       "embedfire.com"     //www.lighttpd.net"
 #else
 #define   HOST_NAME       "114.215.151.106"     //
 #endif
 
 
 
-uint8_t get_buf[]= "GET /forum.php HTTP/1.1\r\nHost: www.firebbs.cn \r\n\r\n\r\n\r\n";
+uint8_t get_buf[]= "GET /forum.php HTTP/1.1\r\nHost: embedfire.com \r\n\r\n\r\n\r\n";
 
 
 
